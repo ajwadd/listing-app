@@ -186,7 +186,7 @@ function App() {
         <Button
           onClick={handleOpen}
           variant="contained"
-          style={{ backgroundColor: "#FFAA0A", color: "black" }}
+          style={{ backgroundColor: "#FFAA0A", color: "grey" }}
         >
           Ajouter Utilisateur
         </Button>
@@ -200,6 +200,10 @@ function App() {
       >
         <Box sx={style}>
           <form>
+            <Grid item container>
+            <Typography style={{fontWeight:"bold", fontSize: '30px', marginBottom:'10px'}}>Ajout d'utilisateurs</Typography>
+
+            </Grid>
             <Grid item container spacing={5}>
               <Grid item container direction="column" xs>
                 <Typography style={{color:'grey'}}>Nom</Typography>
@@ -293,7 +297,7 @@ function App() {
             variant="contained"
             style={{
               backgroundColor: "#FFAA0A",
-              color: "black",
+              color: "grey",
             }}
             onClick={handleAddUser}
           >
