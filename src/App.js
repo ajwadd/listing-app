@@ -44,7 +44,7 @@ function App() {
   };
   const [data, setData] = React.useState(initialData);
 
-  const statusOptions = ["En Validation", "Validé", "Rejeté"];
+  const statusOptions = ["En validation", "Validé", "Rejeté"];
 
   const [users, setUsers] = React.useState([
     {
@@ -153,7 +153,7 @@ function App() {
                   <div
                     style={{
                       backgroundColor: getStatusColor(user.status),
-                      color: "white",
+                     // color: "white",
                       borderRadius: "11px",
                       padding: "5px 0px 5px 0px",
                       textAlign: "center",
